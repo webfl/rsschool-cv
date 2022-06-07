@@ -21,3 +21,17 @@ And now I am studying JS at RS School. Glad to be a part of The Rolling Scopes d
 * JavaScript (Fundamentals)
 * Git/GitHub
 * Figma, Photoshop, Affinity Photo
+
+## Code Example
+
+```
+function multiply (a, b) {
+return a * b
+}
+```
+
+## Languages
+
+* **Russian** - native
+* **English** - A2
+
