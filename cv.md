@@ -19,5 +19,5 @@ And now I am studying JS at RS School. Glad to be a part of The Rolling Scopes d
 * HTML
 * CSS (SCSS, BEM)
 * JavaScript (Fundamentals)
-* GiGitHub
+* Git/GitHub
 * Figma, Photoshop, Affinity Photo
