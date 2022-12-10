@@ -34,4 +34,4 @@ function isDivideBy(number, a, b) {
 ---
 
 ## Github projects
-<!--[Slider JS](https://webfl.github.io/slider-js)-->
+[Slider JS](https://webfl.github.io/slider-js)
