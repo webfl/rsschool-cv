@@ -18,6 +18,7 @@ Everything related to frontend development and web design is interesting to me. 
 * **Gulp**
 * **Git/Github:** 
 * **Figma** (Photoshop, Affinity Photo)
+
 ---
 
 ## Code Example
@@ -31,6 +32,7 @@ function isDivideBy(number, a, b) {
 ## Languages
 * **Russian** - native
 * **English** - A2
+
 ---
 
 ## Github projects
