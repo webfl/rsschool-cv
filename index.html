@@ -1,11 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CV</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webfl</title>
+    <link rel="icon" href="assets/img/fav/fav_cv.ico" />
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <body>
+<!--! Start of Header=========================================================== -->
+<header class="header">
+	<div class="container header__container">
+
+		<div class="logo">
+			<a class="logo__link" href="#">
+				<img class="logo-image" src="./assets/img/logo/green-gradient-logo.svg" width="109" height="31" alt="image">
+			</a>
+		</div> <!--div class="logo"-->
+
+		<div class="menu">
+
+			<div class="burger">
+				  <span class="line"></span>
+				  <span class="line"></span>
+				  <span class="line"></span>
+			</div>
+
+			<nav class="navigation">
+				<ul class="navigation__list">
+					<li class="navigation__item">
+						<a href="#home" class="navigation__link js-scroll">Home</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#skills" class="navigation__link js-scroll">Skills</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#contacts" class="navigation__link js-scroll">Contacts</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#product" class="navigation__link js-scroll">Product</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#about" class="navigation__link js-scroll">About</a>
+					</li>
+					<li class="navigation__item">
+						<a href="#call" class="navigation__link js-scroll">Call</a>
+					</li>
+				</ul>
+			</nav>			
+		</div> <!--div class="menu"-->
+
+	</div> <!--div class="container header__container"-->
+</header>
+<!--! End of Header============================ -->
+<main class="main">
+	
+<!--! 1-Start of SECTIONS PROMO====================================== -->
+	<section class="promo" id="home">
+		<div class="container promo__container">
+			<div class="promo-grid">
+				<div class="promo__photo">
+					<picture class="promo__picture">
+						<source media="(min-width: 700px)" srcset="./assets/img/promo/foto_webfl.webp" type="image/webp">
+						<source media="(min-width: 0px)" srcset="./assets/img/promo/foto_webfl-md.webp" type="image/webp">
+						<source media="(min-width: 0px)" srcset="./assets/img/promo/foto_webfl-md.png" type="image/png">
+						<img class="" src="assets/img/promo/foto_webfl.png" alt="Web Developer" width="1080" height="1080">
+					</picture>
+				</div> <!--div class="promo-2-grid__picture"-->
+				<div class="promo__text">
+					<p class="hi">Hi, I’m Igor</p>
+					<h1 class="frontend">Front-End Developer</h1>
+				</div>
+			</div> <!--div class="promo-2-grid"-->
+			<div class="promo__buttons contacts" id="contacts">
+				<a href="https://t.me/staywww" class="contact-link tg-link" target="_blank">
+					<span class="text-span">My telegram</span>
+					<span class="contact-span">
+						<svg class="icon icon_tg">
+							<use xlink:href="assets/img/icon-contacts/telegram-28-original.svg#tg-original"></use>
+						</svg>
+					</span>
+				</a> <!--class="contact-link tg-link"-->
+				<a href="https://t.me/staywww" class="contact-link tg-viber" target="_blank">
+					<span class="text-span">My Viber</span>
+					<span class="contact-span">
+						<svg class="icon icon_vb">
+							<use xlink:href="assets/img/icon-contacts/viber-28-original.svg#vbr-original"></use>
+						</svg>
+					</span>
+				</a> <!--class="contact-link tg-link"-->
+			</div> <!--id="contacts"-->
+
+	
+		</div> <!--div class="container promo-2__container"-->
+
+	</section>
+<!--! End of SECTIONS Promo-2======================================== -->
+
+<!--! 2-Start of SECTIONS SKILLS===================================== -->
+<section class="skills" id="home">
+	<div class="container skills__container">
+		<div class="skills-block">
+			<h2 class="skills__title title-2">Skills</h2>	
+			<div class="skills-grid">
+				<div class="skill-item skill-1">
+					<img src="./assets/img/skills/html-5.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3>HTML</h3>
+				</div>
+				<div class="skill-item skill-2">
+					<img src="./assets/img/skills/css-3.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">CSS</h3>
+				</div>
+				<div class="skill-item skill-3">
+					<img src="./assets/img/skills/js 1.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">JS</h3>
+				</div>
+				<div class="skill-item skill-4">
+					<img src="./assets/img/skills/sass-logo.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">SASS</h3>
+				</div>
+				<div class="skill-item skill-5">
+					<img src="./assets/img/skills/gulp-logo.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">GULP</h3>
+				</div>
+				<div class="skill-item skill-6">
+					<img src="./assets/img/skills/figma-logo.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">FIGMA</h3>
+				</div>
+				<div class="skill-item skill-7">
+					<img src="./assets/img/skills/wordpress.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">WORDPRESS</h3>
+				</div>
+				<div class="skill-item skill-8">
+					<img src="./assets/img/skills/github.svg" alt="HTML" loading="lazy" width="200" height="200">
+					<h3 class="skill-title">GITHUB</h3>
+				</div>
+			</div> <!--skills-grid-->
+			
+			<!--todo Start of Ratings -->
+			<div class="ratings">
+				<div class="level">
+					<div class="level__title">HTML</div>
+					<div class="level__percent">98%</div>
+					<div class="level__line">
+						<span></span>
+					</div> <!--level__line-->
+				</div>
+				<div class="level">
+					<div class="level__title">CSS</div>
+					<div class="level__percent">92%</div>
+					<div class="level__line">
+						<span></span>
+					</div> <!--level__line-->
+				</div>
+				<div class="level">
+					<div class="level__title">JavaScript</div>
+					<div class="level__percent">50%</div><span>
+					<div class="level__line">
+						<span class="level-plus"></span>
+					</div> <!--level__line-->
+				</div>
+				<div class="level">
+					<div class="level__title">GIT</div>
+					<div class="level__percent">75%</div>
+					<div class="level__line">
+						<span></span>
+					</div> <!--level__line-->
+				</div>
+			</div> <!--todo ratings-->
+			
+		</div><!--skills-block-->
+	</div> <!--div class="container skills__container"-->
+</section> <!--section class="skills" id="home"-->
+<!--! End of SECTIONS SKILLS===================================== -->
+
+<!--! Start of Projects====================================== -->
+
+<!--! End of Projects======================================== -->
+
+<!--! Start of ====================================== -->
+<!--! End of ======================================== -->
+<!--! Start of ====================================== -->
+<!--! End of ======================================== -->
+<section class="project" id="project">
+	<h1>PRODUCT</h1>
+</section>
+	<hr>
+<section class="about" id="about">
+	<h1>ABOUT</h1>
+</section>
+	<hr>
+<section class="product" id="call">
+	<h1>CALL</h1>
+</section>
+	<hr>
+<!-- End of Main========================================================== -->
+</main>
+
+<footer class="footer">
+	<div class="footer__container container">
+      <div class="my-git">
+         <img src="./assets/img/footer/github-footer.svg" alt="my-github" width="246" height="246">
+      </div>
+      <p class="year-text">2022 © webfl</p>
+      <div class="rs-logo">
+         <img src="./assets/img/footer/logo_rs_school.svg" alt="" width="300" height="111"/>
+      </div>
+   </div>
+</footer>
+
+	<script src="js/index.js"></script>
+	<script src="js/scroll.js"></script>
 </body>
 </html>
+  </body>
+</html>
+
