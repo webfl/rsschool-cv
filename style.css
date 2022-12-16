@@ -537,7 +537,7 @@ h3 {
   box-shadow: 2px 2px 4px 1px rgba(189, 188, 188, 0.25);
   border-radius: 26px;
 }
-.skills__title {
+.title-2 {
   font-size: 3.8rem;
   line-height: 155%;
   font-weight: 700;
@@ -765,10 +765,105 @@ h3 {
 }
  /*End of Ratings ==================================*/
 
+ /*Start of Projects======================================*/
+ .projects {
+	margin-top: 60px;
+}
 
+.projects__container {}
+
+.projects-block {
+	padding: 40px 40px 50px 40px;
+	box-shadow: 2px 2px 4px 1px rgb(189 188 188 / 25%);
+	border-radius: 26px;
+	margin: 0 auto;
+}
+
+.projects-grid {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-gap: 30px;
+}
+
+.projects-item {
+	grid-column: span 6;
+	column-gap: 20px;
+	justify-content: center;
+	padding: 20px 60px;
+	background: linear-gradient(182deg, #131212 20%, rgba(79, 73, 73, 0) 100%);
+	box-shadow: 2px 2px 4px 1px rgb(189 188 188 / 25%);
+	border-radius: 26px;
+	cursor: pointer;
+}
+
+
+
+.projects-item-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	/*grid-template-rows: repeat(1, 140px);*/
+	/*column-gap: 50px;*/
+}
+
+.project-title {
+	font-size: 2.6rem;
+	line-height: 136%;;
+	font-weight: 500;
+	align-self: center;
+}
+
+.img-project {
+	width: 200px;
+}
+
+@media(max-width: 1080px) {
+	.projects-grid {
+		display: grid;
+		grid-template-columns: repeat(6, 1fr);
+
+	}
+	.projects-item-grid {
+		column-gap: 50px;
+	}
+	.project-title {}
+	
+}
+@media(max-width: 600px) {
+	.projects-item-grid {
+		grid-template-columns: repeat(auto-fit, minmax(210px, 390px));
+		column-gap: 30px;
+		padding-left: 0px;
+		padding-right: 0px;
+  }
+  .projects-item{
+	padding-left: 0;
+  }
+	.project-title {
+		text-align: center;
+		font-size: 1.8rem;
+		margin-bottom: 20px;
+	}
+	.img-project {
+		width: 140px;
+		justify-self: center;
+	}
+}
+@media(max-width: 500px) {
+	.projects-block {
+ padding: 40px 10px;
+	}
+	.projects-item-grid {
+		margin: 0 auto;
+		column-gap: 10px;
+  }
+	.img-project {
+		width: 140px;
+	}
+}
+ /*End of Projects ========================================*/
  
 
- /* Start of Footer ================================*/
+ /*! Start of Footer ===========================================================*/
  .footer {
 	min-width: 60px;
 	background: linear-gradient(180deg, #292C2E 0%, #07090B 100%);	
