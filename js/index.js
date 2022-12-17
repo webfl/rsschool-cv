@@ -73,3 +73,8 @@ percentCounter.forEach( (item, i) => {
 });
 //*END of Сonversion of percentages=====================================//
 
+//todo
+//function isDivideBy(number, a, b) {
+//	return number % a === 0 && number % b === 0;
+//	}
+//todo end of todo
